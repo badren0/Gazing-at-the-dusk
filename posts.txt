@@ -1,0 +1,34 @@
+Title: first post
+Author: mohammad
+Body: hello world!
+
+---
+Title: second post
+Author: mohammad
+Body: hi!
+---
+Title: hi
+Author: mohammad
+Body: third post here!
+---
+Title: forth post
+Author: mamad
+Body: im getting annoyed
+---
+Title: fifth
+Author: mamad
+Date: 2024-06-25 12:51:53
+Body: lets see the time
+
+---
+Title: last check
+Author: ali3
+Date: 2024-06-25 15:02:50
+Body: this is getting fucking absurd
+
+---
+Title: sedgs
+Author: ali
+Date: 2024-06-25 21:17:09
+Body: wag
+---
