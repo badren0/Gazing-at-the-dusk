@@ -28,14 +28,38 @@ foreach ($postEntries as $key => $entry) {
         <h2>All Posts</h2>
         <div class="posts-list">
             <?php
-            foreach ($postEntries as $key => $entry) {
+            foreach ($postEntries as $entry) {
                 if (!empty($entry)) {
-                    echo '<div class="post">' . nl2br(htmlspecialchars($entry)) . '</div>';
+                    $lines = explode("\n", trim($entry));
+                    $title = '';
+                    $author = '';
+                    $date = '';
+                    $body = '';
+
+                    foreach ($lines as $line) {
+                        if (strpos($line, 'Title: ') === 0) {
+                            $title = substr($line, strlen('Title: '));
+                        } elseif (strpos($line, 'Author: ') === 0) {
+                            $author = substr($line, strlen('Author: '));
+                        } elseif (strpos($line, 'Date: ') === 0) {
+                            $date = substr($line, strlen('Date: '));
+                        } elseif (strpos($line, 'Body: ') === 0) {
+                            $body = substr($line, strlen('Body: '));
+                        } else {
+                            $body .= "\n" . $line;
+                        }
+                    }
+                    
+                    echo '<div class="post">';
+                    echo '<h3>' . htmlspecialchars($title) . '</h3>';
+                    echo '<p><strong>Author:</strong> ' . htmlspecialchars($author) . '</p>';
+                    echo '<p><strong>Date:</strong> ' . htmlspecialchars($date) . '</p>';
+                    echo '<p>' . nl2br(htmlspecialchars(trim($body))) . '</p>';
+                    echo '</div>';
                 }
             }
             ?>
         </div>
-        
     </div>
     <div class="contact-box">
         <p>For contacting use: <a href="mailto:m.h.tooti@gmail.com">m.h.tooti@gmail.com</a></p>

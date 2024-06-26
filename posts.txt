@@ -1,34 +1,8 @@
-Title: first post
-Author: mohammad
-Body: hello world!
-
----
-Title: second post
-Author: mohammad
-Body: hi!
----
-Title: hi
-Author: mohammad
-Body: third post here!
----
-Title: forth post
-Author: mamad
-Body: im getting annoyed
----
-Title: fifth
-Author: mamad
-Date: 2024-06-25 12:51:53
-Body: lets see the time
-
----
-Title: last check
-Author: ali3
-Date: 2024-06-25 15:02:50
-Body: this is getting fucking absurd
-
----
-Title: sedgs
-Author: ali
-Date: 2024-06-25 21:17:09
-Body: wag
+Title: My flaw
+Author: محمدحسین توتیان
+Date: 2024-06-26 11:56:54
+Body: My name is Mohammad Hossein Tootian, and I am 17 years old. From an early age, I was considered gifted. I could memorize the Quran with ease, but I set it aside, planning to return to it later. Unfortunately, I never did, and this tendency to abandon things has become a habit.
+I start projects with enthusiasm, but I often get exhausted and let them go. This has made me lazy and unmotivated. Additionally, I&#039;ve spent the last four years essentially addicted to video games and YouTube, which has only worsened my situation.
+I had no academic issues till sixth grade, but when I entered Helli, I hit a roadblock. I struggled to achieve good exam scores, beside that we were lab mice for the teachers. Despite this challenging environment, I didn&#039;t change my approach.
+Now, I&#039;ve completed 11th grade, but I still feel mentally weak. This year is going to be the most impactful of my life , and I realize that I must make a significant change.
 ---
